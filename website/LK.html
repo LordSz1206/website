@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <title>Аватар</title>
+    <link rel="stylesheet" href="D:\МОЯ УЧЁБА\website\css.style\user.css\avatar.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        .header {
+            background-color: #000000;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .sidebar {
+            width: 200px;
+            position: fixed;
+            height: 100%;
+            background-color: #333;
+            padding-top: 20px;
+        }
+
+            .sidebar a {
+                padding: 10px 15px;
+                text-decoration: none;
+                font-size: 18px;
+                color: white;
+                display: block;
+            }
+
+                .sidebar a:hover {
+                    background-color: #575757;
+                }
+
+        .content {
+            margin-left: 200px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Кабинет пользователя</h1>
+
+        <div class="avatar-container">
+            <img src="img/avatar1.jpg" class="avatar">
+        </div>
+        <div class="avatar-name" style="color: White; font-size: 20px;">Lord1206</div>
+    </div>
+
+        <div class="sidebar">
+            <a href="#profile">Профиль</a>
+            <a href="#settings">Настройки</a>
+            <a href="#messages">Сообщения</a>
+            <a href="file:///D:/%D0%9C%D0%9E%D0%AF%20%D0%A3%D0%A7%D0%81%D0%91%D0%90/website/user/myFavorit.html">Избранное</a>
+            <a href="file:///D:/%D0%9C%D0%9E%D0%AF%20%D0%A3%D0%A7%D0%81%D0%91%D0%90/website/user/recept.html">Добавить рецепт</a>
+            <a href="file:///D:/%D0%9C%D0%9E%D0%AF%20%D0%A3%D0%A7%D0%81%D0%91%D0%90/website/index.html#">Главная</a>
+            <a href="file:///D:/%D0%9C%D0%9E%D0%AF%20%D0%A3%D0%A7%D0%81%D0%91%D0%90/website/Index2.html#">Рецепты</a>
+            <a href="file:///D:/%D0%9C%D0%9E%D0%AF%20%D0%A3%D0%A7%D0%81%D0%91%D0%90/website/reg.html">Выход</a>
+        </div>
+
+        <div class="content">
+            <div class="card" id="profile">
+                <h2>Профиль</h2>
+                <p>Информация о пользователе</p>
+            </div>
+            <div class="card" id="settings">
+                <h2>Настройки</h2>
+                <p>Настройки пользователя</p>
+            </div>
+            <div class="card" id="messages">
+                <h2>Сообщения</h2>
+                <p>Здесь отображаются сообщения пользователя</p>
+            </div>
+            <div class="card" id="Favorites">
+                <h2>Избранное</h2>
+                <p>Здесь отображаются рецепты отмеченные как "избранное"</p>
+            </div>
+            <div class="card" id="Recipes">
+                <h2>Добавить рецепт</h2>
+                <p>Здесь отображаются рецепты добавленные вамми"</p>
+            </div>
+        </div>
+
+</body>
+</html>

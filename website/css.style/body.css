@@ -1,0 +1,33 @@
+body {
+    background-color: #00000000;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    
+}
+
+main {
+    margin-top: 20px;
+    
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}

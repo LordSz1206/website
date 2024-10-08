@@ -1,0 +1,17 @@
+.favorite-icon {
+    cursor: pointer;
+}
+
+    .favorite-icon input {
+        display: none; /* Скрыть чекбокс */
+    }
+
+    .favorite-icon span {
+        font-size: 40px; /* Размер иконки */
+        color: #FFD700; /* Цвет неактивной иконки */
+        transition: color 0.3s; /* Плавный переход цвета */
+    }
+
+    .favorite-icon input:checked + span {
+        color: lawngreen; /* Цвет активной иконки (избранное) */
+    }

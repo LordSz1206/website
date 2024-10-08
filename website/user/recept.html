@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить рецепт</title>
+    <link rel="stylesheet" href="D:\МОЯ УЧЁБА\website\css.style\user.css\us.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .recipe-form {
+            background-color: #000;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+            .recipe-form h2 {
+                margin-top: 0;
+            }
+
+            .recipe-form label {
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            .recipe-form input[type="text"],
+            .recipe-form input[type="file"],
+            .recipe-form textarea {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 10px;
+                border-radius: 3px;
+                border: 1px solid #ccc;
+            }
+
+            .recipe-form button {
+                background-color: #5cb85c;
+                color: white;
+                padding: 10px;
+                border: none;
+                border-radius: 3px;
+                cursor: pointer;
+                width: 100%;
+            }
+
+                .recipe-form button:hover {
+                    background-color: #4cae4c;
+                }
+    </style>
+
+</head>
+
+<body>
+    
+        <div class="recipe-form"
+             <h8><p style="color: White; font-family: Comic Sans MS;">"Кулинарный - ВедьмаК"</p></h8>
+
+            <h2 style="color: White;">Добавить рецепт</h2>
+            <form action="/submit_recipe" method="post" enctype="multipart/form-data">
+                <label style="color: White;" for="recipe-name">Название блюда</label>
+                <input type="text" id="recipe-name" name="recipe_name" required>
+
+                <label style="color: White;" for="description">Описание</label>
+                <textarea id="description" name="description" rows="3" required></textarea>
+
+                <label style="color: White;" for="ingredients">Ингредиенты (Каждый на новой строке)</label>
+                <textarea id="ingredients" name="ingredients" rows="5" required></textarea>
+
+                <label style="color: White;" for="instructions">Инструкции</label>
+                <textarea id="instructions" name="instructions" rows="5" required></textarea>
+
+                <label style="color: White;" for="image">Изображение</label>
+                <input style="color: White;" type="file" id="image" name="image">
+
+                <button type="submit">Добавить рецепт</button>
+            </form>
+        </div>
+    
+</body>
+
+</html>

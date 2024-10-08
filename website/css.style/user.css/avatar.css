@@ -1,0 +1,19 @@
+.avatar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* отступ сверху */
+}
+
+.avatar {
+    width: 100px; /* ширина изображения */
+    height: 100px; /* высота изображения */
+    border-radius: 50%; /* скругление для круглого аватара */
+    object-fit: cover; /* обрезка изображения для заполнения контейнера */
+    margin-bottom: 10px; /* пространство между изображением и текстом */
+}
+
+.avatar-name {
+    font-size: 10px; /* размер шрифта */
+    color: #333; /* цвет текста */
+}

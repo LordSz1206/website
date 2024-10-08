@@ -1,0 +1,30 @@
+.relative-container {
+    position: relative;
+    height: 0vh; /* Определить высоту родительского элемента */
+    
+}
+
+.my-section {
+    position: absolute;
+    right: 0; /* Разместить справа */
+    top: 0; /* Разместить сверху */
+
+}
+.my-section1 {
+    position: absolute;
+    left: 0; /* Разместить слева */
+    top: 0; /* Разместить сверху */
+}
+.container12 {
+    width: 970px; /* Фиксированная ширина */
+    height: 1950px; /* Фиксированная высота */
+}
+.container13 {
+    width: 600px; /* Фиксированная ширина */
+    height: 890px; /* Фиксированная высота */
+    background-image: url('D:\МОЯ УЧЁБА\website\img\zad.jpg');
+}
+.container14 {
+    width: 1450px; /* Фиксированная ширина */
+    height: 1950px; /* Фиксированная высота */
+}
